@@ -23,17 +23,17 @@ function getEndpoints(deviceAddress, endpoints)
   // In the code below, two endpoints are created. The first is a
   // temperature sensor, while the second one is a carbon dioxide sensor.
 
-  endpoints.addEndpoint("1", "Dimmer", endpointType.dimmer);
-  endpoints.addEndpoint("2", "Brillo", endpointType.lightSensor);
-  endpoints.addEndpoint("3", "People Counter", endpointType.peopleCounter);
-  var gfs = endpoints.addEndpoint("4", "GenFlowSen", endpointType.genericFlowSensor);
+  endpoints.addEndpoint("d4mm3r1", "Dimmer", endpointType.dimmer);
+  endpoints.addEndpoint("br1ll0", "Brillo", endpointType.lightSensor);
+  endpoints.addEndpoint("c0np3rs0n4", "Contador Personas", endpointType.peopleCounter);
+  var gfs = endpoints.addEndpoint("fl5j4", "Flujo", endpointType.genericFlowSensor);
   gfs.variableTypeId = 1107;
-  var gfs = endpoints.addEndpoint("5", "LotePark", endpointType.genericSensor);
+  var gfs = endpoints.addEndpoint("l0t3p3r15", "LotePark", endpointType.genericSensor);
   gfs.variableTypeId = 1151;
-  endpoints.addEndpoint("6", "People Flow Sensor", endpointType.peopleFlowSensor);
- endpoints.addEndpoint("7", "Runtime Meter", endpointType.runTimeMeter);
- endpoints.addEndpoint("8", "Ocupación", endpointType.appliance);
- endpoints.addEndpoint("9", "Volumen", endpointType.volumeSensor);
+  endpoints.addEndpoint("C1c2C3P6", "Crculación Personas", endpointType.peopleFlowSensor);
+ endpoints.addEndpoint("3j3c5n7", "Ejerción", endpointType.runTimeMeter);
+ endpoints.addEndpoint("0c5p1cn8", "Ocupación", endpointType.appliance);
+ endpoints.addEndpoint("V0l4m39", "Volumen", endpointType.volumeSensor);
 }
 
 function validateDeviceAddress(address, result)
